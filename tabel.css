@@ -1,0 +1,21 @@
+
+table, th, td {
+    border: 3px solid black;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    text-align: center;
+    vertical-align: bottom;
+}
+td {
+padding: 40px;
+}
+td:hover {
+background-color: thistle;
+}
+tr:nth-child(even){
+    background-color: teal;
+}

@@ -1,0 +1,27 @@
+
+table, td, th {
+    border: 5px solid red;
+    vertical-align: middle;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: blue;
+    margin: auto;
+}
+
+td, th {
+    padding: 15px;
+    font-size: 30px;
+    color: yellow;
+}
+
+td:hover, th:hover {
+    background-color: rgb(255, 179, 214);
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: aqua;
+}

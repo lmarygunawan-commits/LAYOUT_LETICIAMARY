@@ -1,0 +1,189 @@
+
+/* GENERAL SETTINGS */
+body {
+    margin: 0;
+    background-image: url("wallpaper tik.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* FONT */
+@font-face {
+    font-family: "abcd";
+    src: url("cute_dino_2/Cute Dino.otf");
+}
+
+/* HEADER */
+.header {
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #2b5f5f;
+    text-align: center;
+    font-family: "abcd";
+}
+
+/* NAVIGATION BAR */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* WELCOME AND SECTION HEADINGS */
+h2 {
+    background-color: aquamarine;
+    color: #2b5f5f;
+    text-align: center;
+    font-family: "abcd";
+    font-size: 28px;
+    padding: 8px;
+}
+
+/* BIODATA */
+div.biodata {
+    margin: 30px auto;
+    width: 70%;
+    background-color: #ffd4cf;
+    color: #2b5f5f;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+div.foto {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 3px solid #2b5f5f;
+    flex-shrink: 0;
+}
+
+div.foto img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+}
+
+div.foto img.top {
+    opacity: 1;
+    z-index: 2;
+}
+
+div.foto:hover img.top {
+    opacity: 0;
+}
+
+div.isi p {
+    color: #2b5f5f;
+    font-family: "abcd";
+    font-size: 17px;
+    margin: 12px 0;
+}
+
+/* FAVORITE FOOD, DRINKS AND MOVIES */
+div.makanan,
+div.minuman,
+div.film {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+div.makanan > div,
+div.minuman > div,
+div.film > div {
+    width: 200px;
+    padding: 12px 12px 25px 12px;
+    background-color: #ffd4cf;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+div.makanan img,
+div.minuman img,
+div.film img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+div.makanan p,
+div.minuman p,
+div.film p {
+    color: #2b5f5f;
+    font-family: "abcd";
+    font-size: 18px;
+}
+
+div.makanan > div:hover,
+div.minuman > div:hover,
+div.film > div:hover {
+    transform: scale(1.08) rotate(-2deg);
+}
+
+/* FOOTER */
+div.footer {
+    background-color: aquamarine;
+    color: #2b5f5f;
+    text-align: center;
+    font-family: "abcd";
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 700px) {
+
+    div.content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    div.biodata {
+        width: 80%;
+    }
+
+    .topnav a {
+        float: none;
+        text-align: center;
+    }
+
+}

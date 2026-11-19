@@ -1,0 +1,15 @@
+
+ol{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+li{
+    background-color: thistle;
+}
+ul{
+    list-style-type: square;
+    margin: 5px;
+}

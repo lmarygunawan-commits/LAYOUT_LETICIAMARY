@@ -1,0 +1,72 @@
+body{
+    background-image: url(For\ Those\ Who\ Need\ Lessons\ In\ Leadership.jpg);
+    
+}
+
+img.ukuran{
+    height: 400px;
+    width: 500px;
+}
+
+img.lengkungan{
+    border-radius: 20% 20% 20% 20%;
+    height: 300px;
+    width: 330px;
+}
+
+img.border{
+    height: 300px;
+    width: 330px;
+    border: 1px solid pink;
+    border-radius: 20% 20% 20% 20%;
+  
+}
+
+div.kelompok{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    border-radius: 20%;
+    text-align: center;
+    padding: 5px;
+}
+
+div.kelompok{
+    height: 400px;
+    width: 400px;
+    background-color: orange;
+    border-radius: 20%;
+    text-align: center;
+}
+
+div.kelompok img{
+    height: 360px;
+    width: 340px;
+    border-radius: 20%;
+}
+
+div.efek{
+    height: 400px;
+    width: 400px;
+    background-color: burlywood;
+    border-radius: 20%;
+    text-align: center;
+    padding: 5px;
+}
+
+div.efek img{
+    height: 250px;
+    width: 400px;
+    border: 1px skyblue;
+}
+
+div.efek:hover{
+    background-color: rgb(red, green, blue);
+    height: 280px;
+    width: 480px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 15% 15% 10% black;
+
+}

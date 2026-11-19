@@ -1,0 +1,208 @@
+
+body {
+    background-image: url("easy\ -\ Copy.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    background-color: rgb(162, 215, 224);
+    color: #d3e2a8;
+    text-align: center;
+    font-family: "abcd";
+}
+
+h3 {
+    background-color: rgb(159, 204, 255);
+    color: #479e9e;
+    text-align: center;
+    font-family: "abcd";
+}
+
+h4 {
+    background-color: rgb(166, 208, 233);
+    color: #e6e5b1;
+    text-align: center;
+    font-family: "abcd";
+}
+
+h4 {
+    background-color: rgb(161, 141, 248);
+    color: #81e0bc;
+    text-align: center;
+    font-family: "abcd";
+    font-size: 28px;
+    padding: 8px;
+}
+@font-face {
+    font-family: "abcd";
+    src: url("cute_dino_2/Cute\ Dino.otf");
+}
+
+h1 {
+    background-color: rgb(214, 144, 197);
+    color:#dfda9b;
+    text-align: center;
+    font-family: "abcd";
+}
+
+div.biodata {
+    margin: 30px auto;
+    width: 70%;
+    background-color: #cc84ae;
+    color: #8cdada;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+div.foto {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+}
+
+div.foto img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+div.foto img.top {
+    opacity: 1;
+    z-index: 2;
+}
+
+div.foto:hover img.top {
+    opacity: 0;
+}
+
+
+div.makanan {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+div.makanan > div {
+    width: 200px;
+    padding: 12px 12px 25px 12px;
+    background-color: #f891b8;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    transition: transform 0.3s ease;
+}
+
+div.makanan img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0;
+    display: block;
+}
+
+div.makanan p {
+    margin: 12px 0 0 0;
+    color: #88dbdb;
+    font-family: "abcd";
+    font-size: 18px;
+}
+
+div.makanan > div:hover {
+    transform: scale(1.08) rotate(-2deg);
+}
+
+div.minuman {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+div.minuman > div {
+    width: 200px;
+    padding: 12px 12px 25px 12px;
+    background-color: #fff45c;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    transition: transform 0.3s ease;
+}
+
+div.minuman img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0;
+    display: block;
+}
+
+div.minuman p {
+    margin: 12px 0 0 0;
+    color: #2b5f5f;
+    font-family: "abcd";
+    font-size: 18px;
+}
+
+div.minuman > div:hover {
+    transform: scale(1.08) rotate(-2deg);
+}
+div.film {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+div.film > div {
+    width: 200px;
+    padding: 12px 12px 25px 12px;
+    background-color: #eef7bd;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    transition: transform 0.3s ease;
+}
+
+div.film img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0;
+    display: block;
+}
+
+div.film p {
+    margin: 12px 0 0 0;
+    color: #2b5f5f;
+    font-family: "abcd";
+    font-size: 18px;
+}
+
+div.film > div:hover {
+    transform: scale(1.08) rotate(-2deg);
+}
